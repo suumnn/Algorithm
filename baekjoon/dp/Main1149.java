@@ -38,7 +38,6 @@ public class Main1149 { // RGB °Å¸®
 			} 
 			else if (color == 1) { // G
 				dp[n][1] = Math.min(paint(n - 1, 0), paint(n - 1, 2)) + data[n][1];
-
 			}
 			else { // B
 				dp[n][2] = Math.min(paint(n - 1, 0), paint(n - 1, 1)) + data[n][2];
